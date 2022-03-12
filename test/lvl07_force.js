@@ -5,7 +5,7 @@ describe("Force", () => {
 
   let Force;
   let Push;
-  const provider = ethers.getDefaultProvider();
+  const provider = ethers.provider;
   let owner;
   let heritage;
   let balance;
